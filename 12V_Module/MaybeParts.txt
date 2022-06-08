@@ -1,0 +1,12 @@
+MOSFET:
+- TO247-4L           <----- Not SMD
+- BUK9Y8R8-60EL      <----- Better option
+
+Diode:
+- STPS20M60SG-TR     <----- Datasheet lacks info needed for quickstart calculator (Qr)
+- VS-12CWQ03FN-M3    <----- Also no Qr specified
+- PMEG045T100EPDAZ   <----- Qr can be calculated / approximated from datasheet info. Best option.
+
+Inductor:
+- XAL1580-132MED     <----- Would need 2
+- IHLP7575GZER3R3M51 <----- Large inductance, preferred (still need 2)
