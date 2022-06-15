@@ -10,3 +10,13 @@ Diode:
 Inductor:
 - XAL1580-132MED     <----- Would need 2
 - IHLP7575GZER3R3M51 <----- Large inductance, preferred (still need 2)
+
+Input Capacitors:
+- 50SVT68M
+- GCM21BD70G226ME36L
+
+VCC Capacitor:
+- GCM21BC72A105KE36L 
+
+Output Capacitors:
+- 

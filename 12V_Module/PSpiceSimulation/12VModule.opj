@@ -1,6 +1,6 @@
 (ExpressProject "12VModule"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2022 S008-[06/08/22]")
+  (SoftwareVersion "17.4-2022 S008-[06/15/22]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -50,7 +50,7 @@
         (Type "PSpice Profile"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
-    (GND
+    (0
       (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (C
@@ -58,7 +58,17 @@
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
-    (0
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM5156-Q1DSS_TRANS
+      (FullPartName "LM5156-Q1DSS_TRANS.Normal")
+      (LibraryName
+         "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\LM5156-Q1DSS_TRANS.OLB")
+      (DeviceIndex "0"))
+    (GND
       (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R
@@ -88,23 +98,35 @@
       (Path "Design Resources"
          "C:\Users\Public\Documents\Altium\Projects\SW8E-MainPowerBoard\12V_Module\PSpiceSimulation\12vmodule.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources" "Library")
       (Select "Design Resources"
          "C:\Users\Public\Documents\Altium\Projects\SW8E-MainPowerBoard\12V_Module\PSpiceSimulation\12vmodule.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "SCHEMATIC1" "SPICE_MODELS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 575"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 539"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 948 24 593")
-        (Scroll "-101 -6")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 5 24 5 884 24 557")
+        (Scroll "428 133")
+        (Zoom "138")
         (Occurrence "/"))
       (Path
          "C:\USERS\PUBLIC\DOCUMENTS\ALTIUM\PROJECTS\SW8E-MAINPOWERBOARD\12V_MODULE\PSPICESIMULATION\12VMODULE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 884 24 557")
+        (Scroll "0 14")
+        (Zoom "138")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\PUBLIC\DOCUMENTS\ALTIUM\PROJECTS\SW8E-MAINPOWERBOARD\12V_MODULE\PSPICESIMULATION\12VMODULE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SPICE_MODELS"))))

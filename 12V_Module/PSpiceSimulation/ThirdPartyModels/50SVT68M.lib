@@ -1,0 +1,27 @@
+*---------------------------------------------------------------
+*  *** Spice model ***
+*
+*  Copyright (C) Panasonic Corporation
+*
+*  Conductive Polymer Aluminum Solid Capacitors (OS-CON)
+*
+*  Parts No. 50SVT68M
+*---------------------------------------------------------------
+.SUBCKT 50SVT68M 1 2
+C_C1         6 7  64.7u  
+C_C2         1 4  343.9u
+C_C3         1 3  530u
+C_C4         1 9  280u
+C_C5         1 10 400u
+L_L1         8 2  4.6n   
+L_L2         4 6  0.6n
+L_L3         4 5  2.0n
+R_R1         7 8  14m 
+R_R2         1 7  73529.4
+R_R3         1 4  800m
+R_R4         4 6  100m
+R_R5         3 4  5m
+R_R6         9 3  70m
+R_R7         5 6  60m
+R_R8        10 9  400m
+.ENDS
