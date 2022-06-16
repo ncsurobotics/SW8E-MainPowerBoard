@@ -10,5 +10,6 @@ However, since thrusters are run off the batteries directly there is potential f
 
 Files:
 - Quickstart spreadsheet is a SEPIC quickstart calculator for the LM5156 provided by TI.
+- Datasheet design spreadsheet is a custom spreadsheet used to calculate values from formulas in datasheet for the part
 - PSpiceSimulation folder contains a PSpice project to simulate the 12V converter. This is used to verify max current through components and analyze the regulator's response to sudden changes in input voltage (this can occur as motors are run directly off the battery). PSpice for TI can be obtained for free from TI at https://www.ti.com/tool/PSPICE-FOR-TI
 

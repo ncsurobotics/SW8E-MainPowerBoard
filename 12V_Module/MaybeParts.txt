@@ -1,6 +1,8 @@
 MOSFET:
 - TO247-4L           <----- Not SMD
-- BUK9Y8R8-60EL      <----- Better option
+- BUK9Y8R8-60EL      <----- Better option (OUT OF STOCK, ALSO TO HIGH QG)
+- PSMN5R0-40MLHX     <----- Best
+- BUK9629-100B,118   <----- Alternative if above is out of stock
 
 Diode:
 - STPS20M60SG-TR     <----- Datasheet lacks info needed for quickstart calculator (Qr)
@@ -17,6 +19,10 @@ Input Capacitors:
 
 VCC Capacitor:
 - GCM21BC72A105KE36L 
+
+Coupling Capacitor:
+- GRT21BR61E226ME13L <----- PROBABLY CAN'T USE. LIKELY HEATS UP TOO MUCH WITH 9.8Arms current
+- TODO: FIND DIFFERENT PART. PROBABLY (MUCH) LARGER PACKAGE
 
 Output Capacitors:
 - 
