@@ -118,27 +118,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 575"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 539"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 948 24 593")
-        (Scroll "506 0")
+        (Placement "44 0 1 -1 -1 5 24 5 884 24 557")
+        (Scroll "570 0")
         (Zoom "146")
         (Occurrence "/"))
       (Path
          "C:\USERS\PUBLIC\DOCUMENTS\ALTIUM\PROJECTS\SW8E-MAINPOWERBOARD\12V_MODULE\PSPICESIMULATION\12VMODULE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 948 24 593")
-        (Scroll "-82 0")
-        (Zoom "77")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\PUBLIC\DOCUMENTS\ALTIUM\PROJECTS\SW8E-MAINPOWERBOARD\12V_MODULE\PSPICESIMULATION\12VMODULE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SPICE_MODELS"))))
+      (Page "PAGE1"))))
