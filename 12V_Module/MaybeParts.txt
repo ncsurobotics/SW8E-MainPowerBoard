@@ -27,5 +27,5 @@ Coupling Capacitor:
 Output Capacitors:
 - 2x 875115652007 (3A ripple current capacity each = 6A of required 10A)
 - 1x 875075655002 (3.3A ripple current capacity)
-- 3x GRM32ER71E226KE15L (probably ok at up to 6A rms)
-- 2x GRM32EC72A106KE05 (probably ok at up to 6A rms)
+- 3x GRM32ER71E226KE15L (probably ok at up to 6A rms each)
+- 2x GRM32EC72A106KE05 (probably ok at up to 6A rms each)
