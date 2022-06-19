@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-TransientSim"  [ c:\users\public\documents\altium\projects\sw8e-mainpowerboard\12v_module\pspicesimulation\12vmodule-PSpiceFiles\SCHEMATIC1\TransientSim.sim ] 
+
+** Creating circuit file "TransientSim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
